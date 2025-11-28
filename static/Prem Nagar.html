@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_990a8ff5661a49c72d8a8eb3decbd515 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_990a8ff5661a49c72d8a8eb3decbd515" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_990a8ff5661a49c72d8a8eb3decbd515 = L.map(
+                "map_990a8ff5661a49c72d8a8eb3decbd515",
+                {
+                    center: [30.3141, 77.97],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_026b3a5e14452dd23e82a63d841a313c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_026b3a5e14452dd23e82a63d841a313c.addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+    
+            var circle_marker_085daa70c12598864e658e9bf302fc99 = L.circleMarker(
+                [30.3141, 77.97],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+    
+        var popup_119fafaea205b7bb7b8c524770e3a8ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66798828ae60df709eff7803077a87fb = $(`<div id="html_66798828ae60df709eff7803077a87fb" style="width: 100.0%; height: 100.0%;">Truck | Drunk Driving | High</div>`)[0];
+                popup_119fafaea205b7bb7b8c524770e3a8ba.setContent(html_66798828ae60df709eff7803077a87fb);
+            
+        
+
+        circle_marker_085daa70c12598864e658e9bf302fc99.bindPopup(popup_119fafaea205b7bb7b8c524770e3a8ba)
+        ;
+
+        
+    
+    
+            var circle_marker_3a226b977c2482c106d7fb96f5655eb8 = L.circleMarker(
+                [30.3141, 77.97],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+    
+        var popup_d86b081b0ab98c928ec92159589f6a53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90955c91608c0064a6b6e92108b4ef8e = $(`<div id="html_90955c91608c0064a6b6e92108b4ef8e" style="width: 100.0%; height: 100.0%;">Bus | Distracted Driving | High</div>`)[0];
+                popup_d86b081b0ab98c928ec92159589f6a53.setContent(html_90955c91608c0064a6b6e92108b4ef8e);
+            
+        
+
+        circle_marker_3a226b977c2482c106d7fb96f5655eb8.bindPopup(popup_d86b081b0ab98c928ec92159589f6a53)
+        ;
+
+        
+    
+    
+            var circle_marker_c0e159fca0c03002c7fcfa004d29e913 = L.circleMarker(
+                [30.3141, 77.97],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+    
+        var popup_0469e9e2f0314e77fa5ec7471239dcd1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5edec4764fc073df82a48fd9626f0304 = $(`<div id="html_5edec4764fc073df82a48fd9626f0304" style="width: 100.0%; height: 100.0%;">Car | Drunk Driving | High</div>`)[0];
+                popup_0469e9e2f0314e77fa5ec7471239dcd1.setContent(html_5edec4764fc073df82a48fd9626f0304);
+            
+        
+
+        circle_marker_c0e159fca0c03002c7fcfa004d29e913.bindPopup(popup_0469e9e2f0314e77fa5ec7471239dcd1)
+        ;
+
+        
+    
+    
+            var circle_marker_dfdb218e3b6ee1753d5b9d1aaaf0bf58 = L.circleMarker(
+                [30.3141, 77.97],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+    
+        var popup_e1a4ce93c8f0c431e21f6202a603ef93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5d6bd04c25c1826e0ee6254e70b7976 = $(`<div id="html_f5d6bd04c25c1826e0ee6254e70b7976" style="width: 100.0%; height: 100.0%;">Bus | Speeding | High</div>`)[0];
+                popup_e1a4ce93c8f0c431e21f6202a603ef93.setContent(html_f5d6bd04c25c1826e0ee6254e70b7976);
+            
+        
+
+        circle_marker_dfdb218e3b6ee1753d5b9d1aaaf0bf58.bindPopup(popup_e1a4ce93c8f0c431e21f6202a603ef93)
+        ;
+
+        
+    
+    
+            var circle_marker_b4f8de6da59e504509847b109d3989a3 = L.circleMarker(
+                [30.3141, 77.97],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+    
+        var popup_ea415de442466cb0d8fbf2b137ff302a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0cbb4cde93cdac3d25635c1dbab3d0e = $(`<div id="html_b0cbb4cde93cdac3d25635c1dbab3d0e" style="width: 100.0%; height: 100.0%;">Bike | Speeding | Low</div>`)[0];
+                popup_ea415de442466cb0d8fbf2b137ff302a.setContent(html_b0cbb4cde93cdac3d25635c1dbab3d0e);
+            
+        
+
+        circle_marker_b4f8de6da59e504509847b109d3989a3.bindPopup(popup_ea415de442466cb0d8fbf2b137ff302a)
+        ;
+
+        
+    
+    
+            var circle_marker_8709205d28ccccba4cf17cb5bef3dd9c = L.circleMarker(
+                [30.3141, 77.97],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+    
+        var popup_d7443b9774b8ce576dee7b6e1f964085 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55bad019a4a716e1973c212a23ba2556 = $(`<div id="html_55bad019a4a716e1973c212a23ba2556" style="width: 100.0%; height: 100.0%;">Auto | Distracted Driving | High</div>`)[0];
+                popup_d7443b9774b8ce576dee7b6e1f964085.setContent(html_55bad019a4a716e1973c212a23ba2556);
+            
+        
+
+        circle_marker_8709205d28ccccba4cf17cb5bef3dd9c.bindPopup(popup_d7443b9774b8ce576dee7b6e1f964085)
+        ;
+
+        
+    
+    
+            var circle_marker_967c8061251b9d52cf7b4afbf074a600 = L.circleMarker(
+                [30.3141, 77.97],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+    
+        var popup_1d0f90012126f3c72a93741006d2cc56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7693f640cac8d544de5e7a203c405daa = $(`<div id="html_7693f640cac8d544de5e7a203c405daa" style="width: 100.0%; height: 100.0%;">Truck | Bad Road | Medium</div>`)[0];
+                popup_1d0f90012126f3c72a93741006d2cc56.setContent(html_7693f640cac8d544de5e7a203c405daa);
+            
+        
+
+        circle_marker_967c8061251b9d52cf7b4afbf074a600.bindPopup(popup_1d0f90012126f3c72a93741006d2cc56)
+        ;
+
+        
+    
+    
+            var circle_marker_07faf5e7c4fe5b20410654b26bfcc4c9 = L.circleMarker(
+                [30.3141, 77.97],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+    
+        var popup_201152878aaae177e7aff3b5e703d999 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_624ebf1390535e7337ed7ea44b89ad86 = $(`<div id="html_624ebf1390535e7337ed7ea44b89ad86" style="width: 100.0%; height: 100.0%;">Bicycle | Drunk Driving | Medium</div>`)[0];
+                popup_201152878aaae177e7aff3b5e703d999.setContent(html_624ebf1390535e7337ed7ea44b89ad86);
+            
+        
+
+        circle_marker_07faf5e7c4fe5b20410654b26bfcc4c9.bindPopup(popup_201152878aaae177e7aff3b5e703d999)
+        ;
+
+        
+    
+    
+            var circle_marker_4d31cb166505c8b0841da27ec4d00b99 = L.circleMarker(
+                [30.3141, 77.97],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+    
+        var popup_c6c6bfb06f32808e32add7833b86260b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_201048081b7b46b71e74b7279a5b0d80 = $(`<div id="html_201048081b7b46b71e74b7279a5b0d80" style="width: 100.0%; height: 100.0%;">Car | Drunk Driving | Medium</div>`)[0];
+                popup_c6c6bfb06f32808e32add7833b86260b.setContent(html_201048081b7b46b71e74b7279a5b0d80);
+            
+        
+
+        circle_marker_4d31cb166505c8b0841da27ec4d00b99.bindPopup(popup_c6c6bfb06f32808e32add7833b86260b)
+        ;
+
+        
+    
+    
+            var circle_marker_81392c760d7e2a1081fedcbd3eda6fd7 = L.circleMarker(
+                [30.3141, 77.97],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+    
+        var popup_9969c080bf02375eae59247559321bcd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab93d5b78e5710494eba2a5a6c6e393d = $(`<div id="html_ab93d5b78e5710494eba2a5a6c6e393d" style="width: 100.0%; height: 100.0%;">Bicycle | Distracted Driving | Low</div>`)[0];
+                popup_9969c080bf02375eae59247559321bcd.setContent(html_ab93d5b78e5710494eba2a5a6c6e393d);
+            
+        
+
+        circle_marker_81392c760d7e2a1081fedcbd3eda6fd7.bindPopup(popup_9969c080bf02375eae59247559321bcd)
+        ;
+
+        
+    
+    
+            var circle_marker_70abba96fb23ea37d632cc4e059e7954 = L.circleMarker(
+                [30.3141, 77.97],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+    
+        var popup_3bcdbdf8ae11efdf21eb3818f818c2fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4634c339781cf23c9c104288d323b86 = $(`<div id="html_d4634c339781cf23c9c104288d323b86" style="width: 100.0%; height: 100.0%;">Auto | Bad Road | Medium</div>`)[0];
+                popup_3bcdbdf8ae11efdf21eb3818f818c2fa.setContent(html_d4634c339781cf23c9c104288d323b86);
+            
+        
+
+        circle_marker_70abba96fb23ea37d632cc4e059e7954.bindPopup(popup_3bcdbdf8ae11efdf21eb3818f818c2fa)
+        ;
+
+        
+    
+    
+            var circle_marker_76ab7489d66d5f075208af14f04b0216 = L.circleMarker(
+                [30.3141, 77.97],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+    
+        var popup_d4cc2add21876c77f20b31dd9ed28237 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d678f835e00f397fb0eca0f915c1be1 = $(`<div id="html_3d678f835e00f397fb0eca0f915c1be1" style="width: 100.0%; height: 100.0%;">Bicycle | Signal Jump | High</div>`)[0];
+                popup_d4cc2add21876c77f20b31dd9ed28237.setContent(html_3d678f835e00f397fb0eca0f915c1be1);
+            
+        
+
+        circle_marker_76ab7489d66d5f075208af14f04b0216.bindPopup(popup_d4cc2add21876c77f20b31dd9ed28237)
+        ;
+
+        
+    
+    
+            var circle_marker_24a9ae3caeac290b53898425123a5b52 = L.circleMarker(
+                [30.3141, 77.97],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+    
+        var popup_a85ed11cecc2a359d86470f45a045141 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dddf8183bf61a965d988e5355c9fb08b = $(`<div id="html_dddf8183bf61a965d988e5355c9fb08b" style="width: 100.0%; height: 100.0%;">Truck | Drunk Driving | High</div>`)[0];
+                popup_a85ed11cecc2a359d86470f45a045141.setContent(html_dddf8183bf61a965d988e5355c9fb08b);
+            
+        
+
+        circle_marker_24a9ae3caeac290b53898425123a5b52.bindPopup(popup_a85ed11cecc2a359d86470f45a045141)
+        ;
+
+        
+    
+    
+            var circle_marker_a11daafddd494a3ad383092aed8f4fa0 = L.circleMarker(
+                [30.3141, 77.97],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+    
+        var popup_a23225d65c3b9bf017302d00e4ba1cfc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce631f1f48a13c8529a71c331fb6b39b = $(`<div id="html_ce631f1f48a13c8529a71c331fb6b39b" style="width: 100.0%; height: 100.0%;">Car | Bad Road | High</div>`)[0];
+                popup_a23225d65c3b9bf017302d00e4ba1cfc.setContent(html_ce631f1f48a13c8529a71c331fb6b39b);
+            
+        
+
+        circle_marker_a11daafddd494a3ad383092aed8f4fa0.bindPopup(popup_a23225d65c3b9bf017302d00e4ba1cfc)
+        ;
+
+        
+    
+    
+            var circle_marker_60b7a6fc3f9e05b62cafe2418158e8f4 = L.circleMarker(
+                [30.3141, 77.97],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+    
+        var popup_1c2d572b608855df0bcad3758b514404 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8a88ac02b20ec2f9c73109433fa0e97 = $(`<div id="html_b8a88ac02b20ec2f9c73109433fa0e97" style="width: 100.0%; height: 100.0%;">Bicycle | Drunk Driving | High</div>`)[0];
+                popup_1c2d572b608855df0bcad3758b514404.setContent(html_b8a88ac02b20ec2f9c73109433fa0e97);
+            
+        
+
+        circle_marker_60b7a6fc3f9e05b62cafe2418158e8f4.bindPopup(popup_1c2d572b608855df0bcad3758b514404)
+        ;
+
+        
+    
+    
+            var circle_marker_8f9b72a1c885890b0150d2d24a731dc2 = L.circleMarker(
+                [30.3141, 77.97],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+    
+        var popup_0b101035295bb85ba40bcf2d05045612 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b90a2082f6f1ec867ebea658d863e3eb = $(`<div id="html_b90a2082f6f1ec867ebea658d863e3eb" style="width: 100.0%; height: 100.0%;">Car | Distracted Driving | Medium</div>`)[0];
+                popup_0b101035295bb85ba40bcf2d05045612.setContent(html_b90a2082f6f1ec867ebea658d863e3eb);
+            
+        
+
+        circle_marker_8f9b72a1c885890b0150d2d24a731dc2.bindPopup(popup_0b101035295bb85ba40bcf2d05045612)
+        ;
+
+        
+    
+    
+            var circle_marker_e7fac308528ef71c44465cf78b35bab3 = L.circleMarker(
+                [30.3141, 77.97],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+    
+        var popup_604c1b6cdff1ecff9da9ea8898f0809d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b359b60b4e0ef900865f06533efb18e6 = $(`<div id="html_b359b60b4e0ef900865f06533efb18e6" style="width: 100.0%; height: 100.0%;">Truck | Distracted Driving | Low</div>`)[0];
+                popup_604c1b6cdff1ecff9da9ea8898f0809d.setContent(html_b359b60b4e0ef900865f06533efb18e6);
+            
+        
+
+        circle_marker_e7fac308528ef71c44465cf78b35bab3.bindPopup(popup_604c1b6cdff1ecff9da9ea8898f0809d)
+        ;
+
+        
+    
+    
+            var heat_map_8b4e5bf064aed615cae8fc44c1d6011a = L.heatLayer(
+                [[30.3141, 77.97], [30.3141, 77.97], [30.3141, 77.97], [30.3141, 77.97], [30.3141, 77.97], [30.3141, 77.97], [30.3141, 77.97], [30.3141, 77.97], [30.3141, 77.97], [30.3141, 77.97], [30.3141, 77.97], [30.3141, 77.97], [30.3141, 77.97], [30.3141, 77.97], [30.3141, 77.97], [30.3141, 77.97], [30.3141, 77.97]],
+                {
+  "minOpacity": 0.5,
+  "maxZoom": 18,
+  "radius": 25,
+  "blur": 15,
+}
+            );
+        
+    
+            heat_map_8b4e5bf064aed615cae8fc44c1d6011a.addTo(map_990a8ff5661a49c72d8a8eb3decbd515);
+        
+</script>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Accident & Traffic Zone Analysis</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0368f6, #1cec2a);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Segoe UI", Arial, sans-serif;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .hero-card {
+            background: rgba(255, 255, 255, 0.18);
+            padding: 45px 40px;
+            border-radius: 15px;
+            text-align: center;
+            color: #080808;
+            backdrop-filter: blur(14px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+            animation: scaleUp 0.9s ease-out;
+            max-width: 550px;
+            width: 90%;
+        }
+
+        .hero-card h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .tagline {
+            font-size: 17px;
+            opacity: 0.9;
+            margin-bottom: 25px;
+        }
+
+        .button-group {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .glass-btn {
+            padding: 12px 28px;
+            border-radius: 8px;
+            border: none;
+            font-weight: 600;
+            font-size: 17px;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.35);
+            color: #000000;
+            transition: 0.35s;
+        }
+
+        .glass-btn:hover {
+            transform: scale(1.07);
+            background: rgba(255, 255, 255, 0.6);
+        }
+
+        .dark-btn {
+            background: rgba(0, 0, 0, 0.55);
+            color: rgb(255, 255, 255);
+        }
+
+        .dark-btn:hover {
+            background: rgb(0, 0, 0);
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes scaleUp {
+            0% {
+                transform: scale(0.92);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hero-card">
+        <h1>Accident & Traffic Zone Analysis</h1>
+
+        <p class="tagline">
+            Analyze accident hotspots and high-risk traffic areas in Dehradun.
+        </p>
+
+        <div class="button-group">
+            <a href="/signup" class="btn glass-btn">Signup</a>
+            <a href="/login" class="btn glass-btn dark-btn">Login</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

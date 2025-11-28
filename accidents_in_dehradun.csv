@@ -1,0 +1,100 @@
+ID,Date,Time,Area,Place,Severity,Vehicle_Type,Weather_Condition,Road_Type,Accident_Cause,Light_Condition,Driver_Age,Driver_Gender,License_Status,Victim_Count,Hospital_Name,FIR_Filed,Nearby_Landmark
+1,24-01-2025,04:17,Rajpur Road,Dehradun,High,Car,Windy,Market Area,Distracted Driving,Daylight,30,Male,Expired,4,Doon Hospital,No,Police Station
+2,16-09-2025,15:24,Vikas Nagar,Dehradun,Medium,Bus,Windy,Market Area,Bad Road,Streetlight,55,Male,Expired,3,AIIMS Rishikesh,Yes,School
+3,01-04-2025,22:12,Clock Tower,Dehradun,Medium,Bicycle,Cloudy,Highway,Distracted Driving,Streetlight,23,Male,None,3,Max Dehradun,No,Police Station
+4,07-04-2025,23:46,Race Course,Dehradun,Low,Car,Clear,Market Area,Signal Jump,Streetlight,18,Male,Expired,1,Max Dehradun,No,Bus Stand
+5,05-06-2025,09:04,Race Course,Dehradun,Low,Bus,Clear,Highway,Signal Jump,Daylight,65,Male,Valid,1,AIIMS Rishikesh,Yes,School
+6,18-05-2025,12:24,Prem Nagar,Dehradun,High,Truck,Clear,City Road,Drunk Driving,Daylight,34,Female,Valid,4,Synergy Hospital,Yes,Hospital
+7,30-06-2025,17:40,Race Course,Dehradun,Low,Bike,Windy,Market Area,Signal Jump,Night,28,Male,Expired,1,Max Dehradun,No,Police Station
+8,16-03-2025,06:12,Race Course,Dehradun,Medium,Bicycle,Foggy,Market Area,Drunk Driving,Streetlight,56,Female,Valid,2,Max Dehradun,Yes,Police Station
+9,25-04-2025,19:50,Race Course,Dehradun,Low,Bus,Windy,Highway,Speeding,Streetlight,38,Male,Valid,4,AIIMS Rishikesh,No,Police Station
+10,26-09-2025,18:19,Prem Nagar,Dehradun,High,Bus,Foggy,Market Area,Distracted Driving,Night,32,Male,None,0,AIIMS Rishikesh,Yes,Mall
+11,11-01-2025,11:42,ISBT,Dehradun,Low,Bike,Clear,Highway,Bad Road,Streetlight,39,Male,Valid,1,AIIMS Rishikesh,Yes,Police Station
+12,20-04-2025,04:33,Race Course,Dehradun,Low,Auto,Windy,City Road,Signal Jump,Streetlight,59,Male,Expired,1,Doon Hospital,No,School
+13,13-01-2025,00:18,ISBT,Dehradun,Low,Bicycle,Cloudy,Highway,Signal Jump,Daylight,35,Male,Valid,0,Synergy Hospital,Yes,Mall
+14,04-05-2025,12:31,Prem Nagar,Dehradun,High,Car,Rainy,Residential,Drunk Driving,Night,54,Female,Valid,1,Synergy Hospital,Yes,Police Station
+15,04-05-2025,04:03,ISBT,Dehradun,Medium,Truck,Cloudy,City Road,Speeding,Night,51,Male,Expired,0,Synergy Hospital,No,Hospital
+16,02-09-2025,20:18,Prem Nagar,Dehradun,High,Bus,Clear,Market Area,Speeding,Daylight,49,Female,None,4,AIIMS Rishikesh,No,Police Station
+17,04-03-2025,16:09,Ballupur,Dehradun,Low,Bus,Cloudy,Residential,Signal Jump,Night,65,Male,Valid,0,AIIMS Rishikesh,Yes,Hospital
+18,06-05-2025,13:25,ISBT,Dehradun,High,Bike,Clear,Residential,Bad Road,Night,32,Female,None,1,Synergy Hospital,No,School
+19,25-01-2025,07:23,Race Course,Dehradun,High,Bike,Foggy,Market Area,Drunk Driving,Night,25,Male,Valid,0,Synergy Hospital,No,Mall
+20,27-01-2025,16:05,Prem Nagar,Dehradun,Low,Bike,Rainy,Market Area,Speeding,Streetlight,64,Male,Valid,4,AIIMS Rishikesh,No,School
+21,27-09-2025,01:28,Race Course,Dehradun,Medium,Bicycle,Foggy,Residential,Drunk Driving,Daylight,25,Male,None,4,AIIMS Rishikesh,Yes,Hospital
+22,29-08-2025,21:45,Prem Nagar,Dehradun,High,Auto,Cloudy,Market Area,Distracted Driving,Night,25,Male,None,0,Synergy Hospital,Yes,Hospital
+23,22-07-2025,09:54,Prem Nagar,Dehradun,Medium,Truck,Windy,Market Area,Bad Road,Night,65,Female,Valid,3,Synergy Hospital,No,Bus Stand
+24,08-07-2025,08:54,Vikas Nagar,Dehradun,High,Bus,Clear,City Road,Drunk Driving,Daylight,28,Male,None,0,AIIMS Rishikesh,Yes,Police Station
+25,09-08-2025,06:53,ISBT,Dehradun,High,Truck,Clear,City Road,Distracted Driving,Daylight,26,Female,None,5,AIIMS Rishikesh,Yes,Bus Stand
+26,20-08-2025,04:04,Prem Nagar,Dehradun,Medium,Bicycle,Foggy,Highway,Drunk Driving,Streetlight,44,Female,Valid,3,Synergy Hospital,Yes,Mall
+27,12-07-2025,22:31,Race Course,Dehradun,High,Bike,Rainy,Residential,Speeding,Streetlight,20,Female,None,4,Max Dehradun,No,Hospital
+28,08-03-2025,02:50,Clock Tower,Dehradun,Low,Truck,Cloudy,Highway,Signal Jump,Night,36,Male,None,5,AIIMS Rishikesh,Yes,School
+29,28-06-2025,06:38,Rajpur Road,Dehradun,Medium,Truck,Cloudy,Residential,Drunk Driving,Daylight,31,Female,Expired,3,Max Dehradun,No,School
+30,28-03-2025,05:35,ISBT,Dehradun,Medium,Bike,Rainy,City Road,Signal Jump,Night,22,Female,Expired,5,Max Dehradun,No,Hospital
+31,07-06-2025,19:38,Rajpur Road,Dehradun,High,Auto,Cloudy,Market Area,Signal Jump,Night,45,Male,Expired,0,Doon Hospital,No,Hospital
+32,22-07-2025,15:30,Vikas Nagar,Dehradun,High,Car,Foggy,Market Area,Signal Jump,Night,21,Male,Expired,3,Max Dehradun,Yes,Police Station
+33,23-02-2025,03:37,ISBT,Dehradun,Medium,Truck,Clear,Highway,Speeding,Streetlight,21,Female,None,1,Synergy Hospital,No,Police Station
+34,26-08-2025,08:20,Rajpur Road,Dehradun,Low,Bicycle,Cloudy,Highway,Speeding,Daylight,24,Female,Valid,1,Doon Hospital,Yes,Hospital
+35,12-03-2025,05:40,Ballupur,Dehradun,Medium,Car,Cloudy,City Road,Speeding,Streetlight,31,Female,Expired,2,Doon Hospital,Yes,Police Station
+36,13-04-2025,10:02,Ballupur,Dehradun,Medium,Bus,Foggy,Residential,Drunk Driving,Streetlight,18,Female,Valid,0,Max Dehradun,Yes,Mall
+37,05-05-2025,06:46,Ballupur,Dehradun,Low,Truck,Rainy,Highway,Signal Jump,Night,56,Male,None,5,Doon Hospital,No,School
+38,08-01-2025,14:49,Vikas Nagar,Dehradun,Medium,Bicycle,Clear,Residential,Drunk Driving,Streetlight,34,Female,Valid,1,Max Dehradun,No,Bus Stand
+39,26-06-2025,06:56,Vikas Nagar,Dehradun,Low,Bus,Rainy,Residential,Bad Road,Streetlight,54,Male,Expired,0,Max Dehradun,Yes,Hospital
+40,21-09-2025,14:47,Race Course,Dehradun,High,Auto,Rainy,City Road,Drunk Driving,Daylight,44,Female,None,0,Max Dehradun,No,Bus Stand
+41,25-04-2025,09:04,Prem Nagar,Dehradun,Medium,Car,Foggy,Market Area,Drunk Driving,Daylight,45,Male,None,4,Doon Hospital,Yes,Hospital
+42,18-04-2025,11:32,Rajpur Road,Dehradun,High,Car,Cloudy,Residential,Speeding,Night,40,Female,None,5,Max Dehradun,No,School
+43,14-02-2025,06:50,ISBT,Dehradun,High,Bike,Clear,City Road,Drunk Driving,Daylight,51,Female,Valid,1,Synergy Hospital,No,Bus Stand
+44,18-02-2025,17:30,Vikas Nagar,Dehradun,High,Bus,Windy,Highway,Drunk Driving,Streetlight,21,Male,Valid,4,Doon Hospital,Yes,Hospital
+45,14-02-2025,05:02,Vikas Nagar,Dehradun,Medium,Bike,Cloudy,Residential,Signal Jump,Night,24,Female,Expired,5,Synergy Hospital,Yes,Bus Stand
+46,08-05-2025,03:14,Rajpur Road,Dehradun,High,Bike,Foggy,Highway,Bad Road,Streetlight,64,Male,None,0,Max Dehradun,Yes,Hospital
+47,11-07-2025,12:21,Ballupur,Dehradun,High,Truck,Foggy,City Road,Speeding,Night,48,Female,None,3,Max Dehradun,Yes,Bus Stand
+48,03-06-2025,05:10,Vikas Nagar,Dehradun,Low,Auto,Cloudy,Highway,Bad Road,Daylight,24,Female,Valid,4,AIIMS Rishikesh,No,Hospital
+49,28-05-2025,22:58,Prem Nagar,Dehradun,Low,Bicycle,Cloudy,Residential,Distracted Driving,Daylight,63,Male,Valid,1,Synergy Hospital,Yes,School
+50,20-05-2025,16:43,ISBT,Dehradun,High,Auto,Clear,City Road,Speeding,Night,18,Male,Valid,0,Max Dehradun,Yes,School
+51,01-09-2025,23:43,Ballupur,Dehradun,Medium,Truck,Rainy,City Road,Speeding,Streetlight,60,Female,None,1,Max Dehradun,No,School
+52,10-01-2025,13:47,Prem Nagar,Dehradun,Medium,Auto,Rainy,Highway,Bad Road,Night,40,Female,Valid,0,Synergy Hospital,Yes,Police Station
+53,17-06-2025,17:35,Ballupur,Dehradun,Low,Car,Cloudy,Market Area,Speeding,Night,39,Female,Expired,3,Max Dehradun,Yes,Hospital
+54,19-04-2025,03:20,Ballupur,Dehradun,Low,Truck,Foggy,Residential,Drunk Driving,Streetlight,46,Female,Expired,4,AIIMS Rishikesh,Yes,Bus Stand
+55,12-03-2025,11:18,Prem Nagar,Dehradun,High,Bicycle,Foggy,Highway,Signal Jump,Streetlight,25,Female,None,5,AIIMS Rishikesh,Yes,Hospital
+56,14-02-2025,12:53,Ballupur,Dehradun,Low,Bike,Rainy,Market Area,Bad Road,Night,19,Female,Valid,3,Max Dehradun,Yes,Bus Stand
+57,20-03-2025,15:13,Rajpur Road,Dehradun,High,Car,Windy,City Road,Signal Jump,Daylight,61,Female,Valid,4,Doon Hospital,No,Police Station
+58,18-08-2025,05:58,Clock Tower,Dehradun,Low,Truck,Rainy,Residential,Signal Jump,Streetlight,48,Female,Valid,0,Synergy Hospital,Yes,Mall
+59,29-05-2025,22:06,Ballupur,Dehradun,High,Truck,Clear,City Road,Speeding,Streetlight,62,Female,None,2,AIIMS Rishikesh,No,School
+60,07-08-2025,21:09,Prem Nagar,Dehradun,High,Truck,Windy,Market Area,Drunk Driving,Night,30,Female,Expired,5,Synergy Hospital,Yes,Police Station
+61,17-02-2025,18:13,Ballupur,Dehradun,Medium,Car,Cloudy,Residential,Drunk Driving,Daylight,46,Female,Valid,3,AIIMS Rishikesh,Yes,Mall
+62,01-06-2025,01:01,Race Course,Dehradun,Low,Bicycle,Clear,Highway,Speeding,Streetlight,23,Female,Expired,2,Max Dehradun,No,School
+63,26-04-2025,02:33,Race Course,Dehradun,High,Auto,Rainy,Highway,Signal Jump,Daylight,61,Male,Valid,1,Synergy Hospital,No,Police Station
+64,23-04-2025,10:52,ISBT,Dehradun,Medium,Bike,Cloudy,Residential,Bad Road,Night,51,Female,Valid,1,Doon Hospital,Yes,Hospital
+65,14-09-2025,19:40,Race Course,Dehradun,Low,Car,Windy,Highway,Speeding,Streetlight,25,Male,None,2,Doon Hospital,Yes,Mall
+66,07-05-2025,00:03,ISBT,Dehradun,Low,Bus,Foggy,Market Area,Drunk Driving,Daylight,20,Male,Expired,0,AIIMS Rishikesh,No,Bus Stand
+67,31-07-2025,10:45,Prem Nagar,Dehradun,High,Car,Clear,Highway,Bad Road,Daylight,31,Male,Expired,3,Synergy Hospital,No,School
+68,04-03-2025,18:44,Rajpur Road,Dehradun,Medium,Truck,Clear,Highway,Distracted Driving,Daylight,38,Male,Valid,0,Synergy Hospital,No,Police Station
+69,26-02-2025,23:18,Rajpur Road,Dehradun,Low,Bus,Foggy,City Road,Bad Road,Daylight,20,Female,None,4,Synergy Hospital,Yes,Hospital
+70,09-06-2025,05:17,Race Course,Dehradun,Medium,Bike,Foggy,Residential,Distracted Driving,Daylight,58,Female,Valid,4,AIIMS Rishikesh,No,School
+71,06-05-2025,23:17,Prem Nagar,Dehradun,High,Bicycle,Windy,Market Area,Drunk Driving,Night,40,Female,Valid,4,Doon Hospital,Yes,Bus Stand
+72,24-04-2025,16:17,ISBT,Dehradun,Low,Bus,Windy,City Road,Distracted Driving,Night,23,Female,Expired,0,Max Dehradun,No,School
+73,11-07-2025,23:32,Ballupur,Dehradun,Medium,Bus,Rainy,Market Area,Drunk Driving,Streetlight,46,Male,Valid,2,Doon Hospital,No,School
+74,26-03-2025,09:27,Rajpur Road,Dehradun,Medium,Bike,Foggy,Residential,Distracted Driving,Streetlight,53,Male,Valid,5,Doon Hospital,No,Police Station
+75,09-08-2025,12:43,ISBT,Dehradun,Medium,Bicycle,Foggy,Residential,Bad Road,Night,64,Female,Expired,0,Synergy Hospital,Yes,Mall
+76,02-06-2025,11:59,ISBT,Dehradun,Low,Bike,Windy,Residential,Speeding,Daylight,65,Female,Valid,4,Max Dehradun,No,Mall
+77,31-05-2025,11:37,Prem Nagar,Dehradun,Medium,Car,Foggy,City Road,Distracted Driving,Night,57,Female,Expired,2,Synergy Hospital,No,School
+78,12-02-2025,23:34,Clock Tower,Dehradun,High,Bike,Foggy,City Road,Drunk Driving,Night,41,Male,None,5,Max Dehradun,Yes,School
+79,09-04-2025,21:14,Clock Tower,Dehradun,Medium,Bicycle,Clear,City Road,Distracted Driving,Daylight,57,Male,None,5,Max Dehradun,No,Bus Stand
+80,30-01-2025,23:53,Vikas Nagar,Dehradun,Medium,Bus,Clear,Highway,Distracted Driving,Night,21,Male,None,4,Synergy Hospital,Yes,School
+81,18-02-2025,01:03,Race Course,Dehradun,Medium,Auto,Rainy,Residential,Bad Road,Streetlight,26,Male,Valid,0,AIIMS Rishikesh,Yes,Bus Stand
+82,10-05-2025,20:55,Ballupur,Dehradun,High,Auto,Windy,City Road,Bad Road,Streetlight,33,Female,Expired,3,Synergy Hospital,Yes,School
+83,21-01-2025,22:56,Vikas Nagar,Dehradun,Low,Bus,Windy,Market Area,Distracted Driving,Daylight,45,Female,None,5,Synergy Hospital,No,Bus Stand
+84,06-02-2025,07:09,Rajpur Road,Dehradun,High,Bus,Foggy,City Road,Distracted Driving,Night,30,Male,Valid,3,Doon Hospital,Yes,Mall
+85,01-06-2025,23:39,ISBT,Dehradun,Medium,Auto,Foggy,Highway,Bad Road,Daylight,32,Female,None,2,Max Dehradun,No,Police Station
+86,06-01-2025,16:10,Vikas Nagar,Dehradun,Medium,Auto,Foggy,Residential,Bad Road,Daylight,21,Male,Valid,1,Doon Hospital,No,Bus Stand
+87,24-09-2025,23:16,Rajpur Road,Dehradun,High,Bike,Rainy,Residential,Drunk Driving,Night,42,Female,Valid,5,Doon Hospital,Yes,School
+88,25-03-2025,05:21,ISBT,Dehradun,High,Truck,Clear,Highway,Bad Road,Streetlight,59,Female,Valid,4,Synergy Hospital,No,School
+89,22-04-2025,05:19,Race Course,Dehradun,Low,Bus,Rainy,City Road,Bad Road,Streetlight,46,Female,None,1,Synergy Hospital,No,School
+90,23-01-2025,10:46,Rajpur Road,Dehradun,Medium,Bike,Cloudy,Residential,Bad Road,Night,24,Female,None,3,AIIMS Rishikesh,Yes,Mall
+91,31-05-2025,14:01,Vikas Nagar,Dehradun,Medium,Truck,Windy,Highway,Distracted Driving,Streetlight,55,Female,None,4,Max Dehradun,Yes,Hospital
+92,12-01-2025,13:10,Rajpur Road,Dehradun,Low,Truck,Foggy,Highway,Distracted Driving,Night,54,Female,None,0,Synergy Hospital,Yes,Hospital
+93,07-01-2025,08:19,Vikas Nagar,Dehradun,Medium,Car,Foggy,Market Area,Bad Road,Streetlight,57,Male,Expired,1,Max Dehradun,Yes,School
+94,22-01-2025,08:43,Race Course,Dehradun,High,Auto,Foggy,Highway,Drunk Driving,Night,33,Female,Valid,2,Doon Hospital,No,School
+95,31-08-2025,07:24,Prem Nagar,Dehradun,Low,Truck,Windy,Residential,Distracted Driving,Night,29,Female,Valid,4,Doon Hospital,Yes,School
+96,28-06-2025,09:08,Vikas Nagar,Dehradun,Medium,Auto,Clear,City Road,Speeding,Daylight,24,Male,Expired,3,Max Dehradun,Yes,Hospital
+97,18-09-2025,13:26,Rajpur Road,Dehradun,High,Truck,Clear,Highway,Distracted Driving,Daylight,47,Female,None,4,Doon Hospital,Yes,Hospital
+98,25-01-2025,16:10,Vikas Nagar,Dehradun,Medium,Bicycle,Rainy,Market Area,Distracted Driving,Streetlight,39,Female,Expired,5,Doon Hospital,No,Bus Stand
+99,01-06-2025,20:03,Ballupur,Dehradun,High,Bus,Cloudy,Residential,Drunk Driving,Daylight,48,Male,None,3,AIIMS Rishikesh,No,Hospital
